@@ -9,15 +9,19 @@
 
     <title>{{ config('app.name', 'Laravel') }}</title>
 
+    <!-- Styles -->
+    <link href="{{ asset('resources/css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('public/css/bootstrap.min.css') }}" rel="stylesheet">
+
     <!-- Scripts -->
     <script src="{{ asset('resources/js/app.js') }}" defer></script>
-
+    <script src="{{ asset('public/js/jquery.min.js') }}" defer></script>
+    <script src="{{ asset('public/js/bootstrap.min.js') }}" defer></script>
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
-    <!-- Styles -->
-    <link href="{{ asset('resources/css/app.css') }}" rel="stylesheet">
+
 </head>
 <body>
     <div id="app">

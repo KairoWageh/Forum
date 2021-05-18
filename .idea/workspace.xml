@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0135c256-7876-4be1-bb95-7b6e6c61b80a" name="Default Changelist" comment="" />
+    <list default="true" id="0135c256-7876-4be1-bb95-7b6e6c61b80a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Reply.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Reply.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Thread.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Thread.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/threads/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/threads/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +17,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -123,6 +133,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1rm28b6qtqfgjAO4PbznUJLuB14" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -130,7 +141,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ROQAY/ImportantDates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -155,6 +166,11 @@
       <workItem from="1619821808965" duration="3177000" />
       <workItem from="1620306186528" duration="1441000" />
       <workItem from="1620331398879" duration="5384000" />
+      <workItem from="1620762492330" duration="16000" />
+      <workItem from="1620762583889" duration="21000" />
+      <workItem from="1621188313958" duration="3579000" />
+      <workItem from="1621243923971" duration="595000" />
+      <workItem from="1621359698872" duration="2494000" />
     </task>
     <servers />
   </component>
@@ -162,18 +178,22 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="404" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1620332706733">
+    <state x="404" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1621188571557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="404" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1620332706733" />
+    <state x="404" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1621188571557" />
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1619568025400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1619568025400" />
-    <state x="926" y="176" key="FileChooserDialogImpl" timestamp="1619822647868">
+    <state x="926" y="176" key="FileChooserDialogImpl" timestamp="1620762601876">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="926" y="176" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1619822647868" />
+    <state x="926" y="176" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1620762601876" />
+    <state x="1018" y="287" key="NewPhpFileDialog" timestamp="1621361078349">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="1018" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1621361078349" />
     <state x="630" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1620335909366">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
