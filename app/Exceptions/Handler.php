@@ -4,6 +4,7 @@ namespace App\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Throwable;
+use Exception;
 
 class Handler extends ExceptionHandler
 {
@@ -37,5 +38,10 @@ class Handler extends ExceptionHandler
         $this->reportable(function (Throwable $e) {
             //
         });
+    }
+
+    public function render($request, Throwable $throwable){
+        if(app()->environment() === 'testing') throw $throwable;
+        return parent::render($request, $throwable);
     }
 }

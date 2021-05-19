@@ -3,11 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="0135c256-7876-4be1-bb95-7b6e6c61b80a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Reply.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Reply.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/Thread.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Thread.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/threads/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/threads/show.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ThreadsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ReadThreadsTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +172,8 @@
       <workItem from="1620762583889" duration="21000" />
       <workItem from="1621188313958" duration="3579000" />
       <workItem from="1621243923971" duration="595000" />
-      <workItem from="1621359698872" duration="2494000" />
+      <workItem from="1621359698872" duration="3097000" />
+      <workItem from="1621413133699" duration="6451000" />
     </task>
     <servers />
   </component>
@@ -178,10 +181,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="404" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1621188571557">
+    <state x="404" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1621417505668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="404" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1621188571557" />
+    <state x="404" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1621417505668" />
     <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1619568025400">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -194,9 +197,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="1018" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1621361078349" />
-    <state x="630" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1620335909366">
+    <state x="389" y="97" width="587" height="534" key="find.popup" timestamp="1621417687406">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="630" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1620335909366" />
+    <state x="389" y="97" width="587" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1621417687406" />
+    <state x="630" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1621417456953">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="630" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1621417456953" />
   </component>
 </project>
