@@ -22,9 +22,7 @@ Route::get('/', function () {
 
 
 Auth::routes();
-Route::get('/threads', [ThreadsController::class, 'index']);
-Route::post('/threads', [ThreadsController::class, 'store']);
-Route::get('/threads/{thread}', [ThreadsController::class, 'show']);
+Route::resource('threads', ThreadsController::class);
 Route::post('/threads/{thread}/replies', [RepliesController::class, 'store'])->name('add_reply_to_thread');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 

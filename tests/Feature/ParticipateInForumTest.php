@@ -14,11 +14,10 @@ class ParticipateInForumTest extends TestCase
     /**
      * @test
      */
-    function unauthenticated_users_may_not_add_replies(){
+    function guests_may_not_add_replies(){
         $this->expectException('Illuminate\Auth\AuthenticationException');
-        $thread = factory('App\Models\Thread')->create();
-        $reply = factory('App\Models\Reply')->create();
-        $this->post($thread->path().'/replies', $reply->toArray());
+        $thread = make('App\Models\Thread');
+        $this->post('/threads', $thread->toArray());
     }
 
     /**
@@ -28,16 +27,15 @@ class ParticipateInForumTest extends TestCase
     function an_authenticated_user_may_participate_in_forum_threads(){
         // Given we have an authenticated user
 
-        $this->be($user = factory('App\Models\User')->create());
-
+        $this->signIn();
         // And an existing thread
-        $thread = factory('App\Models\Thread')->create();
+        $thread = make('App\Models\Thread');
 
         // When the user adds a reply to the thread
-        $reply = factory('App\Models\Reply')->make();
-        $this->post($thread->path().'/replies', $reply->toArray());
+        $this->post('/threads', $thread->toArray());
 
         $this->get($thread->path())
-            ->assertSee($reply->body);
+            ->assertSee($thread->title)
+            ->assertSee($thread->body);
     }
 }
