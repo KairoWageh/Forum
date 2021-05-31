@@ -3,7 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="0135c256-7876-4be1-bb95-7b6e6c61b80a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/RepliesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ThreadsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Reply.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Reply.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Thread.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Thread.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/factories/ThreadFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/ThreadFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_27_233631_create_threads_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_05_22_103631_create_threads_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_04_28_000354_create_replies_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_05_22_200354_create_replies_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/threads/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/threads/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/threads/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/threads/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/CreateThreadsTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ParticipateInForumTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ThreadTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/ThreadTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,8 +152,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ROQAY/ImportantDates" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -174,49 +191,19 @@
       <workItem from="1621497214938" duration="3677000" />
       <workItem from="1621587578975" duration="605000" />
       <workItem from="1621610605443" duration="2293000" />
-      <workItem from="1621664368330" duration="1978000" />
+      <workItem from="1621664368330" duration="8910000" />
+      <workItem from="1621689478036" duration="2012000" />
+      <workItem from="1621755236605" duration="3169000" />
+      <workItem from="1621925380018" duration="4061000" />
+      <workItem from="1622355803227" duration="75000" />
+      <workItem from="1622357384274" duration="257000" />
+      <workItem from="1622357808438" duration="267000" />
+      <workItem from="1622398115999" duration="907000" />
+      <workItem from="1622445044985" duration="5202000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="0" y="84" key="#Inspections" timestamp="1621665122064">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="0" y="84" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1621665122064" />
-    <state x="399" y="193" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1621503826617">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="399" y="193" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1366.728@0.0.1366.728" timestamp="1621503826617" />
-    <state x="404" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1621417505668">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="404" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1621417505668" />
-    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1619568025400">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1619568025400" />
-    <state x="926" y="176" key="FileChooserDialogImpl" timestamp="1620762601876">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="926" y="176" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1620762601876" />
-    <state x="1018" y="287" key="NewPhpFileDialog" timestamp="1621361078349">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="1018" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1621361078349" />
-    <state x="0" y="0" width="1366" height="728" key="SettingsEditor" timestamp="1621503971022">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="0" y="0" width="1366" height="728" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1621503971022" />
-    <state x="389" y="97" width="587" height="534" key="find.popup" timestamp="1621417687406">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="389" y="97" width="587" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1621417687406" />
-    <state x="630" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1621499102786">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="630" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1621499102786" />
   </component>
 </project>

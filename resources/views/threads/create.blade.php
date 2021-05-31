@@ -12,11 +12,17 @@
                             {{ csrf_field() }}
                             <div class="form-group">
                                 <label for="title">Title:</label>
-                                <input type="text" class="form-control" id="title" name="title">
+                                <input type="text" class="form-control  @error('title') is-invalid @enderror" id="title" name="title">
+                                @error('title')
+                                    <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
                             </div>
                             <div class="form-group">
                                 <label for="body">Body:</label>
-                                <textarea name="body" id="body" rows="8" class="form-control"></textarea>
+                                <textarea name="body" id="body" rows="8" class="form-control @error('body') is-invalid @enderror"></textarea>
+                                @error('body')
+                                    <div class="alert alert-danger">{{ $message }}</div>
+                                @enderror
                             </div>
                             <button type="submit" class="btn btn-primary">Publish</button>
                         </form>
